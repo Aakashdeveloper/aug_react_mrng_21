@@ -10,17 +10,17 @@ SPA> Single Page Application
 open source
 
 
-JSON> JavaScript Object Notation
-[
-    {
-        "name":"John",
-        "city":"London"
-    },
-    {
-        "name":"Bhumika",
-        "city":"Paris"
-    }
-]
+    JSON> JavaScript Object Notation
+    [
+        {
+            "name":"John",
+            "city":"London"
+        },
+        {
+            "name":"Bhumika",
+            "city":"Paris"
+        }
+    ]
 
 >>>>>>>>
 Autoclose tab
@@ -28,3 +28,59 @@ tabnine
 vscode-icons
 githistory
 gitlens
+
+////////////////////////
+Package.json
+////////////////////////
+> metaData(name,version, description)
+packages
+scripts
+
+////////////////////////
+Step to generate Package.json
+////////////////////
+*NodeJs Must be installed
+> go inside the folder using cmd/terminal
+> npm init
+> answer all questions
+> type "yes"
+
+**npm init -y
+
+////////////////////////
+Step to install Package.
+////////////////////
+> go inside the folder using cmd/terminal
+> npm i packagename/ npm install packagename/npm i packagenamee --save
+> npm i react
+> npm uninstall react
+
+
+////////////////////////
+Step to generate react app 
+////////////////////
+
+//Windows
+----One Time-----
+> open cmd as administrator
+> npm i -g create-react-app
+
+----Next Every Time-----
+> Go inside the folder using cmd
+> create-react-app appname
+
+//mac/linux
+----One Time-----
+> open terminal
+> sudo npm i -g create-react-app
+
+----Next Every Time-----
+> Go inside the folder using terminal
+> create-react-app appname
+
+////////////////////////
+> Go inside the folder using terminal/cmd
+> npx create-react-app appname
+
+>npm start
+>localhost:3000
