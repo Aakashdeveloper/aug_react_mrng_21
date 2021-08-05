@@ -1,0 +1,35 @@
+h1{
+    color:rgb(27, 144, 180);
+    text-align:center;
+}
+#divheading{
+    color:rgba(100, 97, 97, 0.753)
+}
+.mydiv{
+    height:300px;
+    width:33%;
+    display:inline-block;
+}
+#hotpink{
+    background-color:darkgoldenrod;
+}
+#skyblue{
+    background-color:skyblue
+}
+#lightgreen{
+    background-color:lightgreen
+}
+.textChange{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mainDiv{
+    background-image: url("food-wallpaper.png");
+    height:500px;
+    background-repeat: no-repeat;
+    background-size:100% 500px;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}

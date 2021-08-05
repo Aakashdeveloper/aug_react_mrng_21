@@ -115,3 +115,37 @@ https://developerhotel.herokuapp.com/
 
 block > start in new line
 inline > start from same line
+
+inline > styleTag > stylesheet
+
+<div></div>
+
+inline 
+{
+    color:red,
+    font-size:5
+}
+
+styletage{
+    font-size:2,
+    text-align:center;
+}
+
+stylesheet {
+    color:orange;
+    font-size:6,
+    text-align:right;
+    margin:10
+}
+
+
+{
+    color:red,
+    font-size:5
+    text-align:center;
+    margin:10
+}
+
+TagName > h1, p
+. class > Use to target group of element 
+# id > use to target specific element
