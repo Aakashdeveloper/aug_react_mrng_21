@@ -149,3 +149,9 @@ stylesheet {
 TagName > h1, p
 . class > Use to target group of element 
 # id > use to target specific element
+
+
+ lg <1200px
+ md <992px
+ sm <768px
+ xs >768px

@@ -6,7 +6,7 @@ h1{
     color:rgba(100, 97, 97, 0.753)
 }
 .mydiv{
-    height:300px;
+    height:200px;
     width:33%;
     display:inline-block;
 }
@@ -14,10 +14,10 @@ h1{
     background-color:darkgoldenrod;
 }
 #skyblue{
-    background-color:skyblue
+    background-color:red
 }
 #lightgreen{
-    background-color:lightgreen
+    background-color:orange
 }
 .textChange{
     text-align: center;
@@ -32,4 +32,60 @@ h1{
     color:white;
     font-size: 40px;
     text-align: center;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: lightgoldenrodyellow;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: lightgreen
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: skyblue
+    }
+    #mainDiv{
+        font-size: 35px;
+    }
+    .mydiv{
+        width:45%;
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: lightslategray
+    }
+    #mainDiv{
+        font-size: 30px;
+    }
+    .mydiv{
+        width:45%;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: lightpink
+    }
+    .mydiv{
+        width:100%;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: lightseagreen
+    }
+
+    #mainDiv{
+        font-size: 25px;
+    }
+
+    .mydiv{
+        width:100%;
+    }
 }

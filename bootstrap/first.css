@@ -1,0 +1,28 @@
+.btn-warning{
+    background-color: purple !important;
+}
+
+#first{
+    height:200px;
+    background-color:thistle
+}
+#second{
+    height:200px;
+    background-color:blueviolet
+}
+#third{
+    height:200px;
+    background-color:darkcyan
+}
+#four{
+    height:200px;
+    background-color:lightcoral
+}
+#five{
+    height:200px;
+    background-color:brown
+}
+#six{
+    height:200px;
+    background-color:gold
+}
