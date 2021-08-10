@@ -155,3 +155,7 @@ TagName > h1, p
  md <992px
  sm <768px
  xs >768px
+
+map
+filter
+indexof
