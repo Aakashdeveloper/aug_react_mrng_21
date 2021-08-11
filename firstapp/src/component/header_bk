@@ -1,5 +1,5 @@
 import React, {Component, Fragment}from 'react';
-import './Header.css'
+
 class Header extends Component {
     constructor(props){
         super(props)
@@ -11,13 +11,23 @@ class Header extends Component {
     }
 
     render(){
+        const myStyle = {
+            header:{
+                backgroundColor:'tomato'
+            },
+            logo:{
+                fontSize:'30px',
+                color:'white',
+                textAlign:'center'
+            }
+        }
         return(
             <Fragment>
-                <header>
-                    <div>{this.state.title}</div>
+                <header style={myStyle.header}>
+                    <div style={myStyle.logo}>{this.state.title}</div>
                     <center>
                         <input/>
-                        <div style={{color:'red',fontSize:20}}>{this.state.userText}</div>
+                        <div style={{color:'white',fontSize:20}}>{this.state.userText}</div>
                     </center>
                 </header>
                 <hr/>

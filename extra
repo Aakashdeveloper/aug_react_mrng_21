@@ -159,3 +159,27 @@ TagName > h1, p
 map
 filter
 indexof
+
+////////Component//////
+class 
+> Logical Component
+> We use to interact with data, api call, event and display as well
+> Can maintain state
+
+function
+> Dumb component
+> They use for the display purpose
+> We cannot maintain state
+
+hooks
+
+
+State
+> act like a local variable
+> any data interaction will happen through state
+> It is mutable( we can update the value of state)
+
+Props
+> Props help to transfer the data
+> immutable ( we cannot update the value of props directly)
+> it can only transfer data between 2 nested component

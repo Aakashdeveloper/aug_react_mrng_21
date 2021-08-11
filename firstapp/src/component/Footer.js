@@ -1,11 +1,11 @@
 import React,{Fragment} from 'react';
 
-const Footer = () => {
+const Footer = (props) => {
     return(
         <Fragment>
             <hr/>
             <center>
-                <h3>&copy; Developer Funnel</h3>
+                <h3>&copy; Developer Funnel {props.year} {props.month}</h3>
             </center>
         </Fragment>
     )
