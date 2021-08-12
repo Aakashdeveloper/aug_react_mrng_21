@@ -165,6 +165,8 @@ class
 > Logical Component
 > We use to interact with data, api call, event and display as well
 > Can maintain state
+> Any data interaction should happen through state
+
 
 function
 > Dumb component
@@ -183,3 +185,19 @@ Props
 > Props help to transfer the data
 > immutable ( we cannot update the value of props directly)
 > it can only transfer data between 2 nested component
+
+
+
+var a = [1,2,3,4]
+
+for(i=0;i<a.length;i++){
+    console.log(a[i])
+}
+
+a.map((data) => {console.log(data)})
+
+<div className="main-div">
+                <img src={data.image}  style={{width:60}}/>
+                <h4 className="media-heading">{data.name}</h4>
+                   
+            </div>

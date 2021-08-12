@@ -1,8 +1,8 @@
-header:{
-    backgroundColor:'tomato'
-},
-logo:{
-    fontSize:'30px',
-    color:'white',
-    textAlign:'center'
+header{
+    background-color:teal
+}
+.logo{
+    font-size:30px;
+    color:white;
+    text-align:center
 }
