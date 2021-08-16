@@ -160,6 +160,7 @@ map
 filter
 indexof
 
+
 ////////Component//////
 class 
 > Logical Component
@@ -201,3 +202,36 @@ a.map((data) => {console.log(data)})
                 <h4 className="media-heading">{data.name}</h4>
                    
             </div>
+
+function add(abc,xyz){
+    return abc+xyz
+}
+
+var a = [5,4,6,3,9,6,3]
+a.filter((data)=> {return data>5})
+(3) [6, 9, 6]
+
+var city = ["London","Delhi","Newyork","Amsterdam"]
+undefined
+city.indexOf('Delhi')
+1
+city.indexOf('London')
+0
+city.indexOf('Amsterdam')
+3
+city.indexOf('Mumbai')
+-1
+city.indexOf('Venice')
+-1
+
+
+parent => child (property)
+child => parent (property with function)
+
+parent
+function add(abc,xyz){
+    return abc+xyz
+}
+
+child
+add(1,2)

@@ -6,7 +6,7 @@ const ProductDisplay = (props) => {
 
     const renderProduct = props.prodData.map((data) => {
         return(
-            <div className="media">
+            <div className="media" key={data.id}>
                 <div className="media-left">
                     <img src={data.image}className="media-object" style={{width:60}}/>
                 </div>
@@ -18,8 +18,6 @@ const ProductDisplay = (props) => {
                 </div>
                 <hr/>
             </div>
-            
-            
         )
     })
 

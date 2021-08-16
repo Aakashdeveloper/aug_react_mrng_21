@@ -9,16 +9,29 @@ class Home extends Component {
         super()
 
         this.state={
-            products:JSON
+            products:JSON,
+            filtered:JSON
         }
+    }
+
+    /*
+        var a = [5,4,6,3,9,6,3]
+        a.filter((data)=> {return data>5})
+    */
+    filterProduct = (userInput) => {
+        var output = this.state.products.filter((data) => {
+            return data.name.toLowerCase().indexOf(userInput.toLowerCase())>-1
+        })
+        
+        this.setState({filtered:output})
     }
 
     render(){
         // console.log(this.state.products)
         return(
             <>
-                <Header/>
-                <ProductDisplay prodData={this.state.products}/>
+                <Header userText={(data) => {this.filterProduct(data)}}/>
+                <ProductDisplay prodData={this.state.filtered}/>
                 <Footer year="2021" month="August"/>
             </>
         )
