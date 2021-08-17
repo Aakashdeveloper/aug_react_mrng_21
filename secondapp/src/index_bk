@@ -1,0 +1,25 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {BrowserRouter, Route, Link} from 'react-router-dom';
+import Header from './component/Header';
+import Footer from './component/Footer';
+import Post from './component/Post';
+import Profile from './component/Profile';
+import Home from './component/Home';
+
+ReactDOM.render(
+    <BrowserRouter>
+        <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/post">Post</Link></li>
+            <li><Link to="/profile">Profile</Link></li>
+        </ul>
+        <Header/>
+        <Route exact path="/" component={Home}/>
+        <Route path="/post" component={Post}/>
+        <Route path="/profile" component={Profile}/>
+        <Footer/>
+    </BrowserRouter>, document.getElementById('root')
+)
+
+
