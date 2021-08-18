@@ -3,6 +3,37 @@ https://nodejs.org/en/
 https://github.com/
 https://git-scm.com/downloads
 
+Npm
+React = 3
+Mock API
+json-server
+React-JWT(Login Logout)-2
+Github
+Depolyment
+-> MERN
+-> heroku
+-> Docker
+-> Nginx
+-> Aws
+React-GraphQL-1
+React_hooks -1
+HOC
+Basic React Native=1
+React-Redux =1
+React-Redux =1
+//walkthrough
+React-Saga -1
+React-with-typescript-1
+
+
+Testing Jest Enzime
+
+
+--------NOT Backend--------------
+API
+GraphQL
+Login/Logout
+
 React is a frontend framework/lib that help to build single page applications
 using component base structure
 
@@ -235,3 +266,11 @@ function add(abc,xyz){
 
 child
 add(1,2)
+
+
+params = / (need tp define complusory )
+queryParam = ? (no need to define)
+
+history > redirection
+location > use to fetch queryParam
+match > use to fetch params
