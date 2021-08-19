@@ -1,7 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
 
-const Header = () => {
+const Header = (props) => {
+    console.log("header props>>>>",props)
     return(
         <>
             <nav className="navbar navbar-inverse">
@@ -22,10 +23,10 @@ const Header = () => {
                             <li><Link to="/post">Post</Link></li>
                             <li><Link to="/profile">Profile</Link></li>
                         </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <ul className="nav navbar-nav navbar-right">
+                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i className="fa fa-youtube"></i></a></li>
                         </ul>
                     </div>
                     
@@ -36,4 +37,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default withRouter(Header);
