@@ -289,3 +289,17 @@ match > use to fetch params
 (get) quickSearch>    https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+//dummy api
+
+> install global package
+> npm i -g json-server
+> json-server --watch booking.json --port 8200
+
+///// string literal /////
+var a = 10
+var b = "my age is "+a 
+"my age is 10"
+
+var c = `my age is ${a}`
+"my age is 10"
