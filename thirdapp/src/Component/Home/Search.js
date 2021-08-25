@@ -9,7 +9,8 @@ class Search extends Component {
         super(props)
         console.log(">>>>inside constructor")
         this.state={
-            location:''
+            location:'',
+            hotels:''
         }
     }
 
@@ -25,13 +26,25 @@ class Search extends Component {
         }
     }
 
+    renderHotel = (data) => {
+        if(data){
+            return data.map((item) => {
+                return(
+                    <option value={item._id}>
+                        {item.name} | {item.locality}
+                    </option>
+                )
+            })
+        }
+    }
+
     handleCity = (event) => {
         console.log(event.target.value);
         const cityId = event.target.value
         fetch(`${HotelUrl}${cityId}`,{method:'GET'})
         .then((res) => res.json())
         .then((data) => {
-            console.log(data)
+            this.setState({hotels:data})
         })
     }
 
@@ -52,6 +65,7 @@ class Search extends Component {
                     </select>
                     <select className="hotelDropDown">
                         <option>------SELECT Your Hotels-----</option>
+                        {this.renderHotel(this.state.hotels)}
                     </select>
                 </div>
             </div>
