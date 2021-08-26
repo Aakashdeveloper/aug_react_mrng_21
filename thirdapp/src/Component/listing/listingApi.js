@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import ListingDisplay from './listingDisplay';
 
 const url = "https://developerfunnel.herokuapp.com/hotellist"
 class Listing extends Component {
@@ -17,7 +18,7 @@ class Listing extends Component {
                     Filter here
                 </div>
                 <div className="col-md-10">
-                    Content here
+                    <ListingDisplay listdata={this.state.hotellist}/>
                 </div>
             </div>
         )
@@ -27,7 +28,7 @@ class Listing extends Component {
     componentDidMount(){
         let tripId = this.props.match.params.id;
         axios.get(`${url}/${tripId}`)
-        .then((res) => {console.log(res.data)})
+        .then((res) => {this.setState({hotellist:res.data})})
     }
 }
 
