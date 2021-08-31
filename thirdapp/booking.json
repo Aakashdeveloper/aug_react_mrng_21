@@ -1,5 +1,22 @@
 {
-    "booking":[
-       
-    ]
+  "booking": [
+    {
+      "id": 6489,
+      "hotel_name": "Hotel Sapphire",
+      "name": "Aakash",
+      "phone": "876787",
+      "email": "a@a.com",
+      "image": "https://i.ibb.co/r3SXhxr/sapphire.jpg",
+      "cost": "Rs. 4924"
+    },
+    {
+      "id": 8880,
+      "hotel_name": "The Piccadily",
+      "name": "Nikita",
+      "phone": "34645756",
+      "email": "n@a.com",
+      "image": "https://i.ibb.co/QD1RRBk/piccadily.jpg",
+      "cost": "Rs. 5170"
+    }
+  ]
 }

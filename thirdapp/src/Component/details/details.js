@@ -102,6 +102,8 @@ class Details extends Component {
                                 </h3>
                             </TabPanel>
                         </Tabs>
+                        <Link to="/" className="btn btn-danger">Back</Link> &nbsp;
+                        <Link to={`/booking/${details.name}`} className="btn btn-success">Proceed</Link>
                     </div>
                 </div>
             </div>
@@ -115,6 +117,8 @@ class Details extends Component {
         let response = await axios.get(`${url}/${hotelId}`)
         console.log(response.data)
         this.setState({details:response.data[0], rooms:response.data[0].type})
+        sessionStorage.setItem('cost',response.data[0].cost);
+        sessionStorage.setItem('img',response.data[0].thumb);
     }
 }
 
