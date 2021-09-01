@@ -1,22 +1,40 @@
 {
   "booking": [
     {
-      "id": 6489,
-      "hotel_name": "Hotel Sapphire",
+      "id": 1413,
+      "hotel_name": "Amanora The Fern Hotels",
       "name": "Aakash",
-      "phone": "876787",
+      "phone": "5465455",
       "email": "a@a.com",
-      "image": "https://i.ibb.co/r3SXhxr/sapphire.jpg",
-      "cost": "Rs. 4924"
+      "image": "https://i.ibb.co/y0mPTXx/amanora.jpg",
+      "cost": "3455",
+      "status": "TXN_SUCCESS",
+      "date": "2021-09-01%2008:31:30.0",
+      "bank": "State%20Bank%20of%20India"
     },
     {
-      "id": 8880,
-      "hotel_name": "The Piccadily",
-      "name": "Nikita",
-      "phone": "34645756",
-      "email": "n@a.com",
-      "image": "https://i.ibb.co/QD1RRBk/piccadily.jpg",
-      "cost": "Rs. 5170"
+      "id": 4076,
+      "hotel_name": "Hotel Sapphire",
+      "name": "Bhumika",
+      "phone": "88776",
+      "email": "b@b.com",
+      "image": "https://i.ibb.co/r3SXhxr/sapphire.jpg",
+      "cost": "4924",
+      "status": "TXN_SUCCESS",
+      "date": "2021-09-01%2008:40:35.0",
+      "bank": "Kotak%20Bank"
+    },
+    {
+      "id": 7335,
+      "hotel_name": "Snow Bliss",
+      "name": "Sujit",
+      "phone": "87565867",
+      "email": "a@a.com",
+      "image": "https://i.ibb.co/7JFqdJv/snowbliss.jpg",
+      "cost": "2704",
+      "status": "TXN_SUCCESS",
+      "date": "2021-09-01%2008:44:17.0",
+      "bank": "Kotak%20Bank"
     }
   ]
 }

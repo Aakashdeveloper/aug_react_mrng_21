@@ -304,3 +304,33 @@ var b = "my age is "+a
 
 var c = `my age is ${a}`
 "my age is 10"
+
+//payment gateway url
+https://developerpayment.herokuapp.com/paynow
+
+
+var a = "status=TXN_SUCCESS&ORDERID=TEST_2699&date=2021-09-01%2008:21:00.0&bank=Andhra%20Bank"
+
+undefined
+a.split('&')
+(4) ["status=TXN_SUCCESS", "ORDERID=TEST_2699", "date=2021-09-01%2008:21:00.0", "bank=Andhra%20Bank"]0: "status=TXN_SUCCESS"1: "ORDERID=TEST_2699"2: "date=2021-09-01%2008:21:00.0"3: "bank=Andhra%20Bank"length: 4[[Prototype]]: Array(0)
+var out = a.split('&')
+
+out[0].split('=')
+(2) ["status", "TXN_SUCCESS"]
+out[0].split('=')[1]
+"TXN_SUCCESS"
+
+out[1].split('=')[1]
+"TEST_2699"
+
+out[2].split('=')[1]
+"2021-09-01%2008:21:00.0"
+
+out[3].split('=')[1]
+"Andhra%20Bank"
+
+out[1].split('=')[1].split('_')
+(2) ["TEST", "2699"]
+out[1].split('=')[1].split('_')[1]
+"2699"
