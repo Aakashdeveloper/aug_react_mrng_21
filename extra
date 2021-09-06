@@ -7,15 +7,16 @@ Npm
 React = 3
 Mock API
 json-server
-
-React-JWT(Login Logout)-2
 Github
+
 Depolyment
 -> MERN
 -> heroku
 -> Docker
 -> Nginx
 -> Aws
+/////////////////////
+React-JWT(Login Logout)-2
 React-GraphQL-1
 React_hooks -1
 HOC
@@ -25,8 +26,6 @@ React-Redux =1
 //walkthrough
 React-Saga -1
 React-with-typescript-1
-
-
 Testing Jest Enzime
 
 

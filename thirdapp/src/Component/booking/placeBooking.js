@@ -20,7 +20,8 @@ class PlaceBooking extends Component {
         this.setState({[event.target.name]:event.target.value})
     }
 
-    handleSubmit = () => {
+    handleSubmit = (test) => {
+        // alert(test)
         console.log(this.state)
         fetch(url,{
             method: 'POST',
@@ -68,7 +69,7 @@ class PlaceBooking extends Component {
                         </div>
                         <button className="btn btn-primary" 
                                 type="submit"
-                                onClick={this.handleSubmit}>
+                                onClick={this.handleSubmit()}>
                             Pay Now
                         </button>
                     </form>

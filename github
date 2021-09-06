@@ -1,0 +1,27 @@
+https://github.com/
+https://git-scm.com/downloads
+
+# firstTime from new folder 
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/augreact.git
+git push -u origin master
+
+
+git status
+# next all time
+git add .
+git commit -m "first commit"
+git push
+
+//////branches//////
+>> new branch
+
+git checkout -b branchname
+
+git add .
+git commit -m "first commit"
+git push origin branchname
+
+git clone https://github.com/Aakashdeveloper/augreact
