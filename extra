@@ -8,13 +8,13 @@ React = 3
 Mock API
 json-server
 Github
-
 Depolyment
 -> MERN
 -> heroku
+-> Aws
 -> Docker
 -> Nginx
--> Aws
+
 /////////////////////
 React-JWT(Login Logout)-2
 React-GraphQL-1
