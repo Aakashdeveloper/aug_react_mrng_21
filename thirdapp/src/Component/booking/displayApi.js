@@ -41,6 +41,10 @@ class ViewBooking extends Component {
                     },
                     body:JSON.stringify(data)
                 })
+
+                if(sessionStorage.getItem('userData')){
+                    axios.get(`${url}/?email=${sessionStorage.getItem('userData').split(',')[1]}`).then((res) =>  {this.setState({booking:res.data})})
+                }
             }
         }
         axios.get(url).then((res) => {this.setState({booking:res.data})})

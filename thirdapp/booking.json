@@ -35,6 +35,30 @@
       "status": "TXN_SUCCESS",
       "date": "2021-09-01%2008:44:17.0",
       "bank": "Kotak%20Bank"
+    },
+    {
+      "id": 1794,
+      "hotel_name": "JW Marriott Chandigarh",
+      "name": "Nikita",
+      "email": "nikita@gmail.com",
+      "phone": "9876543210",
+      "image": "https://i.ibb.co/9GCkYN1/jw.jpg",
+      "cost": "6599",
+      "status": "TXN_SUCCESS",
+      "date": "2021-09-13%2008:47:53.0",
+      "bank": "Andhra%20Bank"
+    },
+    {
+      "id": 7639,
+      "hotel_name": "Trident Nariman Point",
+      "name": "Nikita",
+      "email": "nikita@gmail.com",
+      "phone": "9876543210",
+      "image": "https://i.ibb.co/p3Dhc3q/trident.jpg",
+      "cost": "4000",
+      "status": "TXN_SUCCESS",
+      "date": "2021-09-13%2008:48:31.0",
+      "bank": "Bharat%20Bank"
     }
   ]
 }

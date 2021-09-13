@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 const url = "https://developerjwt.herokuapp.com/api/auth/userinfo"
 
 class Profile extends Component {
@@ -14,7 +15,23 @@ class Profile extends Component {
         this.props.history.push('/')
     }
 
+    conditionalRender = () => {
+        if(this.state.user.role){
+            if(this.state.user.role === "Admin"){
+                return(
+                    <Link to="/user" className="btn btn-success">
+                        User
+                    </Link>
+                )
+            }
+        }
+    }
+
     render(){
+        if(sessionStorage.getItem('ltk') === null){
+            this.props.history.push('/')
+        }
+        sessionStorage.setItem('rtk',this.state.user.role);
         return(
             <div className="panel panel-warning">
                 <div className="panel-heading">
@@ -26,6 +43,7 @@ class Profile extends Component {
                     <h2>Your phone is {this.state.user.phone}</h2>
                     <h2>Your Role is {this.state.user.role}</h2>
                 </div>
+                {this.conditionalRender()} &nbsp;
                 <button className="btn btn-danger" onClick={this.handleLogout}>
                     Logout
                 </button>
