@@ -16,8 +16,9 @@ Depolyment
 -> Nginx
 React-JWT(Login Logout)-2
 React_hooks -1
-/////////////////////
 React-GraphQL-1
+/////////////////////
+
 HOC
 Basic React Native=1
 React-Redux =1
@@ -356,3 +357,18 @@ https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth
 
 // deployment
 > npm run build
+
+npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
+
+////////////////////
+step to generate react native
+////////////////////
+> npm i -g create-react-native-app
+> create-react-native-app appname 
+> npm run web
+
+
+in mobile install one app "expo"
+
+HOC > High Order Component
+hoc take input as data and component and return component with data
