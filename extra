@@ -19,15 +19,14 @@ React_hooks -1
 React-GraphQL-1
 HOC
 Basic React Native=1
+React-Redux =1
 /////////////////////
 React-Redux =1
-React-Redux =1
+
 //walkthrough
 React-Saga -1
 React-with-typescript-1
 Testing Jest Enzime
-
-
 --------NOT Backend--------------
 API
 GraphQL
@@ -371,3 +370,5 @@ in mobile install one app "expo"
 
 HOC > High Order Component
 hoc take input as data and component and return component with data
+
+npm i redux react-redux
