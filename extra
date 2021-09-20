@@ -372,3 +372,15 @@ HOC > High Order Component
 hoc take input as data and component and return component with data
 
 npm i redux react-redux
+
+
+
+Latest
+------------------------
+Article
+------------
+gallery
+
+/////////////////
+npm i redux react-redux react-router-dom react-slick redux-promise 
+npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
