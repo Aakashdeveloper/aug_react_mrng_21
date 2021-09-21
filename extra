@@ -20,10 +20,7 @@ React-GraphQL-1
 HOC
 Basic React Native=1
 React-Redux =1
-/////////////////////
 React-Redux =1
-
-//walkthrough
 React-Saga -1
 React-with-typescript-1
 Testing Jest Enzime
@@ -384,3 +381,32 @@ gallery
 /////////////////
 npm i redux react-redux react-router-dom react-slick redux-promise 
 npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+
+function loop(uin){
+    for(i=0;i<uin;i++){
+        console.log(i)
+    }
+}
+
+function * loop(uin){
+    for(i=0;i<uin;i++){
+        yield i
+    }
+}
+undefined
+loop(5)
+loop {<suspended>}
+var data = loop(5)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
