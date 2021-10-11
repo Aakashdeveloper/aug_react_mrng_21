@@ -3,6 +3,12 @@ https://nodejs.org/en/
 https://github.com/
 https://git-scm.com/downloads
 
+html
+css
+bootstrap 3,4,5
+
+basicJs (during react)
+
 Npm
 React = 3
 Mock API
@@ -21,6 +27,7 @@ HOC
 Basic React Native=1
 React-Redux =1
 React-Redux =1
+//////Walkthrough////////
 React-Saga -1
 React-with-typescript-1
 Testing Jest Enzime
@@ -289,7 +296,7 @@ match > use to fetch params
 
 > install global package
 > npm i -g json-server
-> json-server --watch booking.json --port 8200
+> json-server --watch db.json --port 8200
 
 ///// string literal /////
 var a = 10

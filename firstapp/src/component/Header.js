@@ -9,6 +9,8 @@ class Header extends Component {
             userText:'User Text Here'
         }
     }
+
+    
     handleChange = (event) => {
         console.log(event.target.value)
         this.setState({userText:event.target.value?event.target.value:'User Text Here'})
@@ -31,6 +33,16 @@ class Header extends Component {
             </Fragment>
         )
     }
+
+    componentDidMount(){
+        console.log(">>>>env", process.env.REACT_APP_MY_CODE)
+        const appConfig = window.globalConfig;
+        console.log(appConfig)
+        fetch('/')
+        .then((res)=>res.json())
+        .then((data) => console.log(JSON.parse(data)))
+    }
+    
 }
 
 export default Header;
